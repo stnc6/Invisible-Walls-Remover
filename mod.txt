@@ -1,0 +1,19 @@
+{
+  "name": "Invisible Walls Remover",
+  "description": "Button for removing invisible collision walls.",
+  "author": "[6IX]",
+  "contact": "https://steamcommunity.com/id/sayll/",
+  "color" : "255 0 0",
+  "version": "1.0",
+  "keybinds": [
+    {
+      "keybind_id": "toggle_invisible_walls",
+      "name": "Button Invisible Walls",
+      "description": "Enable removing invisible walls around the heist.",
+      "script_path": "toggle.lua",
+      "run_in_menu": false,
+      "run_in_game": true,
+      "localized": false
+    }
+  ]
+}
